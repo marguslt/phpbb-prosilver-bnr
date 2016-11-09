@@ -68,10 +68,14 @@ body {
 h1 {
 	/* Forum name */
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-	margin-right: 200px;
+	/* margin-right: 200px; */
 	margin-top: 15px;
 	font-weight: bold;
 	font-size: 2em;
+	margin-right: 0px;
+	padding-left: 12px;
+	padding-right: 5%;
+
 }
 
 h2 {
@@ -216,12 +220,33 @@ ol ol ul, ol ul ul, ul ol ul, ul ul ul {
 /* Site description and logo */
 #site-description {
 	float: left;
-	width: 65%;
+	width: 30%;
 }
 
+/*
 #site-description h1 {
 	margin-right: 0;
+	padding-left: 12px;
 }
+*/
+#site-description p {
+	padding-left: 12px;
+}
+
+#banner-pos {
+	position: relative;
+    margin-right: 5px;
+    float: right;
+    margin-top: 10px;
+    width: 69%;
+    text-align: right;    
+}
+
+.banner-img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
 
 /* Round cornered boxes and backgrounds
 ---------------------------------------- */

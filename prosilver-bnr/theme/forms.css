@@ -424,6 +424,29 @@ input.button1:focus, input.button2:focus, input.button3:focus {
 	border-left: 1px;
 	padding: 3px 5px 3px 4px;
 }
+/* Search box (header) mod for breadcrum
+--------------------------------------------- */
+.search-header-mod {
+ 	
+    margin-top: 3px;
+    margin-right: 0px;	
+	border-radius: 4px;
+	display: block;
+	float: right;
+}
+
+.search-header-mod .inputbox { border: 0; }
+
+.search-header-mod button {
+	border-top: 0;
+	border-bottom: 0;
+}
+
+.search-header-mod a.button {
+	border: 0;
+	border-left: 1px;
+	padding: 3px 5px 3px 4px;
+}
 
 input.search {
 	background-image: none;
